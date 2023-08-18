@@ -1,5 +1,5 @@
 
-FROM kadena/chainweb-node
+FROM kadena/chainweb-node:latest
 WORKDIR /chainweb
 
 # Install scripts
