@@ -11,7 +11,7 @@ export MINER_KEY=${MINER_KEY:-}
 export MINER_ACCOUNT=${MINER_ACCOUNT:-$MINER_KEY}
 export ENABLE_ROSETTA=${ENABLE_ROSETTA:-}
 export SKIP_REACHABILITY_CHECK=${SKIP_REACHABILITY_CHECK:-0}
-echo " Hey were here moe at this port $CHAINWEB_P2P_HOST"
+echo " Starting Chainweb-node at p2p port : $CHAINWEB_P2P_HOST"
 
 
 if [[ -z "$CHAINWEB_P2P_HOST" ]] ; then
